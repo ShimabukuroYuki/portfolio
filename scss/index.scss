@@ -1,0 +1,35 @@
+@import "./common";
+
+.copy{
+	display:none;
+}
+
+.site-name{
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin-top:5%;
+	display:none;
+}
+.copy{
+	font-size: 170px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	width: 50%;
+}
+.choices{
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	width: 400px;
+	margin-top: -8%;
+	margin-bottom: 5%;
+
+.one{
+	float: left;
+}
+.two{
+	float: right;
+}
+
+}

@@ -1,0 +1,30 @@
+.fadein {
+  display: none; }
+
+body {
+  font-family: "URW DIN";
+  margin-top: 8%;
+  margin-left: 5%;
+  margin-right: 3%; }
+
+.link {
+  text-decoration: none;
+  color: black;
+  position: relative;
+  display: inline-block;
+  transition: .5s; }
+
+.link::after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: '';
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: .5s; }
+
+.link:hover::after {
+  width: 100%; }
+
+/*# sourceMappingURL=common.css.map */

@@ -1,0 +1,104 @@
+.fadein {
+  display: none; }
+
+body {
+  font-family: "URW DIN";
+  margin-top: 8%;
+  margin-left: 5%;
+  margin-right: 3%; }
+
+.link {
+  text-decoration: none;
+  color: black;
+  position: relative;
+  display: inline-block;
+  transition: .5s; }
+
+.link::after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: '';
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: .5s; }
+
+.link:hover::after {
+  width: 100%; }
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  display: none; }
+
+.menu {
+  position: fixed;
+  right: 5%;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 2px;
+  float: right;
+  margin-right: 5%; }
+
+.second {
+  margin-bottom: 300px; }
+
+.scroll {
+  animation: scroll 2.5s ease infinite; }
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0); }
+  70% {
+    transform: translateY(-20px); }
+  100% {
+    transform: translateY(0); } }
+.scroll-char {
+  font-size: 15px;
+  font-weight: bold;
+  color: #9D9D9D;
+  writing-mode: vertical-rl;
+  letter-spacing: 5px;
+  margin-left: -30px; }
+
+.arrow {
+  width: 7px;
+  height: 7px;
+  border: 3px solid;
+  border-color: #9D9D9D #9D9D9D transparent transparent;
+  transform: rotate(135deg);
+  margin-left: -10px; }
+
+.text {
+  width: 55%;
+  float: left;
+  font-size: 15px; }
+
+.profile-head {
+  font-weight: bold; }
+
+.profile-text {
+  margin-bottom: 35px;
+  font-family: "FOT-TsukuOldGothic Std"; }
+
+.profile-entext {
+  margin-bottom: 50px;
+  line-height: 25px; }
+
+.contact-text {
+  margin-bottom: 35px;
+  font-family: "FOT-TsukuOldGothic Std"; }
+
+.contact-entext {
+  margin-bottom: 70px;
+  line-height: 25px; }
+
+.contact-head {
+  font-weight: bold; }
+
+.address {
+  font-weight: bold;
+  margin-bottom: 10%; }
+
+/*# sourceMappingURL=about.css.map */

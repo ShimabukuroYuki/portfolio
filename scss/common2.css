@@ -1,0 +1,44 @@
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  display: none; }
+
+.menu {
+  position: fixed;
+  right: 5%;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 2px;
+  float: right;
+  margin-right: 5%; }
+
+.second {
+  margin-bottom: 300px; }
+
+.scroll {
+  animation: scroll 2.5s ease infinite; }
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0); }
+  70% {
+    transform: translateY(-20px); }
+  100% {
+    transform: translateY(0); } }
+.scroll-char {
+  font-size: 15px;
+  font-weight: bold;
+  color: #9D9D9D;
+  writing-mode: vertical-rl;
+  letter-spacing: 5px;
+  margin-left: -30px; }
+
+.arrow {
+  width: 7px;
+  height: 7px;
+  border: 3px solid;
+  border-color: #9D9D9D #9D9D9D transparent transparent;
+  transform: rotate(135deg);
+  margin-left: -10px; }
+
+/*# sourceMappingURL=common2.css.map */

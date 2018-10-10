@@ -1,0 +1,44 @@
+@import "./common";
+@import "./common2";
+
+.text{
+	width: 55%;
+	float: left;
+	font-size: 15px;
+}
+
+.profile-head{
+	font-weight: bold;
+}
+
+.profile-text{
+	margin-bottom: 35px;
+	font-family: "FOT-TsukuOldGothic Std"
+}
+
+.profile-entext{
+	margin-bottom: 50px;
+	line-height: 25px;
+}
+
+.contact-text{
+	margin-bottom: 35px;
+	font-family: "FOT-TsukuOldGothic Std"
+}
+
+.contact-entext{
+	margin-bottom: 70px;
+	line-height: 25px;
+
+}
+
+.contact-head{
+	font-weight: bold;
+}
+
+.address{
+	font-weight: bold;
+	margin-bottom:10%;
+}
+
+
