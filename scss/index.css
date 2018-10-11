@@ -3,7 +3,7 @@
 
 body {
   font-family: "URW DIN";
-  margin-top: 8%;
+  margin-top: 3%;
   margin-left: 5%;
   margin-right: 3%; }
 
@@ -27,6 +27,13 @@ body {
 .link:hover::after {
   width: 100%; }
 
+body {
+  position: relative; }
+
+.centering {
+  position: absolute;
+  margin: auto; }
+
 .copy {
   display: none; }
 
@@ -48,8 +55,8 @@ body {
   font-weight: bold;
   letter-spacing: 3px;
   width: 400px;
-  margin-top: -8%;
-  margin-bottom: 5%; }
+  margin-top: -10%;
+  margin-bottom: 10%; }
   .choices .one {
     float: left; }
   .choices .two {
