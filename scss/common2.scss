@@ -51,4 +51,16 @@
 	margin-left: -10px;
 }
 
+@media (max-width: 480px) {
+	.title{
+		font-size: 15pt;
+	}
 
+	.scroll-char{
+		font-size:8pt;
+	}
+
+	.first{
+		margin-bottom: 10%;
+	}
+}
