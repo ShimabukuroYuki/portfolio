@@ -60,4 +60,19 @@ body {
   .choices .two {
     float: right; }
 
+@media (max-width: 480px) {
+  .site-name {
+    font-size: 5pt; }
+
+  .copy {
+    font-size: 50pt; }
+
+  .choices {
+    font-size: 15pt;
+    width: 360px;
+    margin-top: -20%; }
+
+  .two {
+    margin-right: 150px; } }
+
 /*# sourceMappingURL=index.css.map */
