@@ -13,7 +13,7 @@
 
 .profile-text{
 	margin-bottom: 35px;
-	font-family: "FOT-TsukuOldGothic Std"
+	font-family: "FOT-TsukuOldGothic Std";
 }
 
 .profile-entext{
@@ -23,7 +23,7 @@
 
 .contact-text{
 	margin-bottom: 35px;
-	font-family: "FOT-TsukuOldGothic Std"
+	font-family: "FOT-TsukuOldGothic Std";
 }
 
 .contact-entext{
@@ -41,4 +41,12 @@
 	margin-bottom:10%;
 }
 
+@media (max-width: 480px) {
+	.address{
+		margin-bottom: 20%;
+	}
 
+	.text{
+		width: 65%;
+	}
+}
